@@ -61,13 +61,11 @@ export default function Home() {
                 <Download className="mr-2 h-4 w-4" /> Download Resume
               </Button>
               </a>
-              <a href="#contact">
               <Button variant="outline" asChild>
                 <Link href="#contact">
                   Contact Me <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              </a>
             </div>
             <div className="flex flex-col sm:flex-row gap-6">
               <Link
