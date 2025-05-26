@@ -56,7 +56,7 @@ export default function Home() {
               Crafting scalable, efficient, and elegant web & mobile applications.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <a href="./Muthu_Lingam_Resume.pdf" download>
+              <a href="./Muthu_Lingam_Full_stack.pdf" download>
               <Button className="bg-emerald-600 hover:bg-emerald-700" >
                 <Download className="mr-2 h-4 w-4" /> Download Resume
               </Button>
@@ -183,12 +183,24 @@ export default function Home() {
               <ExperienceCard
                 company="DXC Technology India Pvt Ltd"
                 role="Sr. Analyst III – Software Engineering"
-                period="May 2021 – Present"
+                period="20th January 2022 – Present"
                 description={[
                   "Worked on micro-UI Angular applications",
                   "Built custom Angular Storybook libraries",
-                  "Spring Boot microservices",
-                  "Led Agile development with Jira, Confluence",
+                  "Developed Spring Boot microservices RESTFULL api's for both web and mobile app",
+                  "Led Agile development with Jira, Confluence for team handling",
+                  "Worded on IONIC framework to develop Android app using Angular"
+                ]}
+              />
+               <ExperienceCard
+                company="Fidelis Corporate Solutions Pvt Ltd (Client: DXC Technology India Pvt Ltd.,)"
+                role="Sr. Frontend Developer"
+                period="May 2021 – 19 January 2022"
+                description={[
+                  "Worked on micro-UI Angular applications",
+                  "Upgraded Angular Storybook libraries to latest version",
+                  "Upgrated Angular Version of all Micro-ui to latest version",
+                  "Developed Custom input components for the application",
                 ]}
               />
               <ExperienceCard
