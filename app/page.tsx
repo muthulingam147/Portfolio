@@ -68,12 +68,12 @@ export default function Home() {
               </Button>
             </div>
             <div className="flex flex-col sm:flex-row gap-6">
-              <Link
+              {/* <Link
                 href="mailto:muthulingam58@gmail.com"
                 className="flex items-center text-gray-600 hover:text-emerald-600 transition-colors"
               >
                 <Mail className="mr-2 h-5 w-5" /> muthulingam58@gmail.com
-              </Link>
+              </Link> */}
               <Link
                 href="tel:+919943393619"
                 className="flex items-center text-gray-600 hover:text-emerald-600 transition-colors"
@@ -187,7 +187,7 @@ export default function Home() {
                 description={[
                   "Worked on micro-UI Angular applications",
                   "Built custom Angular Storybook libraries",
-                  "Developed Spring Boot microservices RESTFULL api's for both web and mobile app",
+                  "Developed Java Spring Boot microservices RESTFULL api's for both web and mobile app",
                   "Led Agile development with Jira, Confluence for team handling",
                   "Worded on IONIC framework to develop Android app using Angular"
                 ]}
@@ -298,7 +298,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
               <div className="space-y-4">
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <Mail className="mr-3 h-5 w-5 text-emerald-600 mt-1" />
                   <div>
                     <p className="font-medium">Email</p>
@@ -309,7 +309,7 @@ export default function Home() {
                       muthulingam58@gmail.com
                     </a>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex items-start">
                   <Phone className="mr-3 h-5 w-5 text-emerald-600 mt-1" />
                   <div>
